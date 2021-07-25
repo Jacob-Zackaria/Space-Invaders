@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.AnimationSprite">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAEAAAgAAIAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Sprite\AnimationSprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSprite" />
+      <Field Name="pCurrImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SLink">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Manager\SLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageHolder">
+    <Position X="8.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\ImageHolder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Image" Collapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAChQAAAAAAoAEAAAAEQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+      <NewMemberFileName>SpriteBatch\SpriteBatch.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameSprite" Collapsed="true">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABACQAAApAAAAAgAgAAAAAAEQAgAARAAAAAAAAA=</HashCode>
+      <FileName>Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Command">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimeEvent">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="TimeEvent" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.TimeEvent.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Timer\TimeEvent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAAAgAAgAAAAAAGQAAAAAAAAABABAA=</HashCode>
+      <FileName>Timer\TimeEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAABBEAg=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimerMan">
+    <Position X="1.25" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="Create" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedDumpNode" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="TimerMan" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABYEAAAAAAAAEAEAAAAAhAAAAAAIAFAAAAACAAAACQA=</HashCode>
+      <FileName>Timer\TimerMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Manager">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAgIAEAEABUAiCAgAAIgAAQAAIEhAAABAAAAgACAA=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
